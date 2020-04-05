@@ -1,4 +1,6 @@
-
+body {
+	background-color: #282828;
+}
 .middle {
 	margin: auto;
 	width: 60%;
@@ -12,7 +14,7 @@
 	font-size: xx-large;
 	font-weight: bold;
 	font-stretch: ultra-expanded;
-	color: #282828;
+	color: #968e8e;
 }
 
 .logo {
@@ -21,16 +23,9 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: large;
 	font-weight: normal;
-	color: #282828;
-}
-
-body {
-	background-image: url('./IMG_1152.JPG');
-	/* min-height: 100%;
-	background-position: center; */
-	background-size: cover;
+	color: #968e8e;
 }
 
 hr {
-	border-color: #282828;
+	border-color: #968e8e;
 }
