@@ -1,16 +1,21 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+	<title>Home | dennybob.net</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Introduction">
-    <meta name="keywords" content="DennyBob">
-	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no" />
-	<title>Introduction | dennybob.net</title>
-	<link rel="stylesheet" href="main.css" />
-    <script src="analytics.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-	<h1>Welcome</h1>
-	<div>www.dennybob.net is under construction...</div>
+	<div class="middle">
+		<p class="date" id="today">TODAY</p>
+		<hr>
+		<p class="logo">dennybob.net</p>
+	</div>
+	<script>
+		var d = new Date();
+		document.getElementById("today").innerHTML = d.toDateString();
+	</script>
 </body>
 </html>

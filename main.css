@@ -1,0 +1,32 @@
+
+.middle {
+	margin: auto;
+	width: 40%;
+	text-align: center;
+}
+
+.date {
+	text-align: center;
+	padding: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	font-stretch: ultra-expanded;
+	color: black;
+}
+
+.logo {
+	text-align: right;
+	padding: 1px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: black;
+}
+
+body {
+	background-image: url('IMG_1152.jpg');
+	/* min-height: 100%;
+	background-position: center; */
+	background-size: cover;
+}
